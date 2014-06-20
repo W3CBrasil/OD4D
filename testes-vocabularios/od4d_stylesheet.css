@@ -5,21 +5,30 @@ body {
 	background-color: #eeeeee;
 	margin: 0;
 	padding: 0;
-
 }
 
-footer a {
+article a, {
+	color: #ab2f00;
+	text-decoration: none;
+}
+
+article a:hover, {
+	text-decoration: underline;
+}
+
+header a, footer a {
 	color: #ffffff;
 	text-decoration: none;
 }
 
-footer a:hover {
+header a, footer a:hover {
 	color: #ab2f00;
 }
 
 h1 {
 	font-size: 38px; 
 	font-family: 'Dosis', sans-serif;
+	font-weight: lighter;
 	color: #333333;
 	padding-left: 24px;
 }
@@ -29,6 +38,7 @@ h2 {
 	font-family: 'Dosis', sans-serif;
 	color: #333333;
 	padding-left: 24px;
+	font-weight: lighter;
 }
 
 p {
