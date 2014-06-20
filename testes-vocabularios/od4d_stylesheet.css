@@ -1,0 +1,31 @@
+h1 {
+	font-size: 38pt; 
+	font-family: 'Dosis', sans-serif;
+	color: #333333;
+}
+
+h2 {
+	font-size: 30pt; 
+	font-family: 'Dosis', sans-serif;
+	color: #333333;
+}
+
+p {
+	font-size: 18pt; 
+	font-family: 'Dosis', sans-serif;
+	color: #333333;
+}
+
+body {
+	font-size: 18pt; 
+	font-family: 'Dosis', sans-serif;
+	color: #333333;
+	background-color: #eeeeee
+}
+
+footer {
+	font-size: 18pt; 
+	font-family: 'Dosis', sans-serif;
+	color: #ffffff;
+	background-color: #da6235
+}
