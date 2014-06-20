@@ -50,16 +50,19 @@ h2 {
 	color: #333333;
 	padding-left: 24px;
 	font-weight: lighter;
-	margin: 20px 0px 10px 0px;
+	margin: 25px 0px 5px 0px;
 }
 
 p {
 	font-size: 18px; 
+	font-weight: lighter;
 	font-family: 'Dosis', sans-serif;
 	color: #333333;
 	padding-left: 24px;
+	padding-top: 6px;
 	margin: 0;
 }
+
 
 nav.header-menu {
 	font-size: 22px; 
