@@ -16,6 +16,12 @@ p {
 	color: #333333;
 }
 
+nav {
+	font-size: 22pt; 
+	font-family: 'Myriad Pro', sans-serif;
+	color: #ffffff;
+}
+
 body {
 	font-size: 18pt; 
 	font-family: 'Dosis', sans-serif;
