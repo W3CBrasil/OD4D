@@ -21,7 +21,7 @@ header a, footer a {
 	text-decoration: none;
 }
 
-header a, footer a:hover {
+header a:hover, footer a:hover {
 	color: #ab2f00;
 }
 
