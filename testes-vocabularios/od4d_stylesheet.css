@@ -1,18 +1,20 @@
+
 body {
 	font-size: 18px; 
 	font-family: 'Dosis', sans-serif;
 	color: #333333;
 	background-color: #eeeeee;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
+	max-width: 948px;
 }
 
-article a, {
-	color: #ab2f00;
+article a {
+	color: #da6235;
 	text-decoration: none;
 }
 
-article a:hover, {
+article a:hover {
 	text-decoration: underline;
 }
 
@@ -21,8 +23,17 @@ header a, footer a {
 	text-decoration: none;
 }
 
-header a:hover, footer a:hover {
+header a {
+	padding: 8px;
+}
+
+footer a:hover {
 	color: #ab2f00;
+}
+
+header a:hover {
+	background-color: #da6235;
+	padding: 8px;
 }
 
 h1 {
@@ -39,6 +50,7 @@ h2 {
 	color: #333333;
 	padding-left: 24px;
 	font-weight: lighter;
+	margin: 20px 0px 10px 0px;
 }
 
 p {
@@ -46,6 +58,7 @@ p {
 	font-family: 'Dosis', sans-serif;
 	color: #333333;
 	padding-left: 24px;
+	margin: 0;
 }
 
 nav.header-menu {
@@ -58,16 +71,15 @@ nav.header-menu {
 ul.header-menu li {
     display: inline-block;
 	color: #ffffff;
-
 	line-height: 2;
-	margin-right: 28px;
+	margin-right: 20px;
 	margin-left: 0;
 	width: auto;
 	text-align: left;
 }
 
 footer {
-	font-size: 18px; 
+	font-size: 16px; 
 	font-family: 'Dosis', sans-serif;
 	color: #ffffff;
 	background-color: #da6235
