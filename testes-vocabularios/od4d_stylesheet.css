@@ -1,36 +1,54 @@
-h1 {
-	font-size: 38pt; 
+body {
+	font-size: 18px; 
 	font-family: 'Dosis', sans-serif;
 	color: #333333;
+	background-color: #eeeeee;
+	margin: 0;
+	padding: 0;
+
+}
+
+h1 {
+	font-size: 38px; 
+	font-family: 'Dosis', sans-serif;
+	color: #333333;
+	padding-left: 24px;
 }
 
 h2 {
-	font-size: 30pt; 
+	font-size: 30px; 
 	font-family: 'Dosis', sans-serif;
 	color: #333333;
+	padding-left: 24px;
 }
 
 p {
-	font-size: 18pt; 
+	font-size: 18px; 
 	font-family: 'Dosis', sans-serif;
 	color: #333333;
+	padding-left: 24px;
 }
 
-nav {
-	font-size: 22pt; 
-	font-family: 'Myriad Pro', sans-serif;
+nav.header-menu {
+	font-size: 22px; 
+	font-family: 'Cuprum', sans-serif;
 	color: #ffffff;
+	background-color: #ab2f00;
 }
 
-body {
-	font-size: 18pt; 
-	font-family: 'Dosis', sans-serif;
-	color: #333333;
-	background-color: #eeeeee
+ul.header-menu li {
+    display: inline-block;
+	color: #ffffff;
+
+	line-height: 2;
+	margin-right: 28px;
+	margin-left: 0;
+	width: auto;
+	text-align: left;
 }
 
 footer {
-	font-size: 18pt; 
+	font-size: 18px; 
 	font-family: 'Dosis', sans-serif;
 	color: #ffffff;
 	background-color: #da6235
