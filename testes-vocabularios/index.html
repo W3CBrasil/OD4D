@@ -1,4 +1,9 @@
-<!DOCTYPE HTML> <html xmlns:schema="http://schema.org/"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!DOCTYPE HTML> 
+<html xmlns:schema="http://schema.org/"> 
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="od4d_stylesheet.css"/>
         <title>od4d</title>
     </head>
 <body>
@@ -18,11 +23,14 @@
         <article resource="#about-od4d" typeof="schema:Article">
             <header>
                 <h1 property="schema:title">About the project</h1>
-                <meta resource="#w3c-organization" property="schema:author" typeof="schema:Organization">
-                    <meta property="schema:name" content="W3C"/>
-                </meta>
+
+
                 <meta property="schema:datePublished" content="2014-06-20"/>
                 <meta property="schema:wordCount" content="503"/>
+                <meta property="inLanguage" content="English"/>
+                <meta property="copyrightHolder" content="W3C"/>
+                <meta property="headline" content="About Open Data 4 Development"/>
+                <meta property="license" content="http://creativecommons.org/licenses/by-sa/4.0/"/>
             </header>
             <div>
                 <p resource="#od4d-about-video" property="schema:video" typeof="schema:VideoObject">
@@ -72,6 +80,14 @@ Fostering the development of new data opening initiatives in the region, with a 
                         </li>
                     </ul>
                 </p>
+            </div>
+            <div>
+                Author: 
+                <span resource="#w3c-organization" property="schema:author" typeof="schema:Organization">
+                    <span property="schema:name">
+                        W3C
+                    </span>
+                </span>
             </div>
         </article>
     </section>
