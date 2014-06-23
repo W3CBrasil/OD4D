@@ -1,13 +1,15 @@
 
+
 body {
 	font-size: 18px; 
 	font-family: 'Dosis', sans-serif;
 	color: #333333;
 	background-color: #eeeeee;
-    margin: 0px;
+	margin: 0px;
 }
 
 article {
+	margin: 26px 100px 26px 100px;
 	background-color: #ffffff;
 	border: solid;
 	border-width: 1px;
@@ -65,8 +67,8 @@ p {
 	font-weight: lighter;
 	font-family: 'Dosis', sans-serif;
 	color: #333333;
-	padding-top: 12px;
-	margin: 0;
+	margin: 0px 0px 0px 0px;
+	padding-top: 15px;
 }
 
 nav.header-menu {
@@ -91,5 +93,6 @@ footer {
 	font-size: 16px; 
 	font-family: 'Dosis', sans-serif;
 	color: #ffffff;
-	background-color: #da6235
+	background-color: #da6235;
+	text-align: left;
 }
