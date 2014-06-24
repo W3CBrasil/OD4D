@@ -5,7 +5,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "hashicorp/precise32"
-  config.vm.provision :shell, :path => "system-configuration/bootstrap.sh"
+  config.vm.provision :shell, :path => "system-configuration/bootstrap.sh", privileged: false
 
   #forward port for rails
   config.vm.network :forwarded_port, host: 3000, guest: 3000

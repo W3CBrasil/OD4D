@@ -6,7 +6,7 @@ function escape_path {
   echo $ESCAPED_PATH
 }
 
-FUSEKI_SRC_FOLDER="/project/semantic-repo"
+FUSEKI_SRC_FOLDER="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 TEMP_FOLDER="$FUSEKI_SRC_FOLDER/tmp"
 
 FUSEKI_PACKAGE_FILE="jena-fuseki-1.0.2-distribution.tar.gz"
