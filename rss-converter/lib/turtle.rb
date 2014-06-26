@@ -1,3 +1,4 @@
+require 'uri'
 require 'rdf'
 require 'rdf/turtle'
 
@@ -38,7 +39,7 @@ class Turtle
 
   def add_triple_to_graph(graph, resourceUri, key, object)
     predicate = RDF::SCHEMA.send(key)
-    if (key == "url") then
+    if object =~ /\A#{URI::regexp}\z/ then
       graph << [resourceUri, predicate, RDF::URI.new(object) ]
     else
       graph << [resourceUri, predicate, object ]
