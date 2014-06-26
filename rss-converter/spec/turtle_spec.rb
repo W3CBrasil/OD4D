@@ -10,8 +10,8 @@ describe Turtle do
 
   context "given a resource of type schema:Article with title" do
 
-    resource = Resource.new("http://the/link/#thelink", "schema:Article")
-      .add_property("schema:headline", "About the project")
+    resource = Resource.new("http://the/link/#thelink", "Article")
+      .add_property("headline", "About the project")
 
     turtle = Turtle.new(prefixes)
       .add_resource(resource)
@@ -32,12 +32,12 @@ describe Turtle do
 
     context "given a resource of schema:Article with more than one property" do
 
-      resource = Resource.new("http://the/link/#thelink", "schema:Article")
-        .add_property("schema:url", "http://webfoundation.org/2014/06/a-message-of-congratulations/")
-        .add_property("schema:headline", "A message of congratulations…")
-        .add_property("schema:articleSection", "General")
-        .add_property("schema:datePublished", "Mon, 23 Jun 2014 10:59:34 +0000")
-        .add_property("schema:author","Dillon Mann")
+      resource = Resource.new("http://the/link/#thelink", "Article")
+        .add_property("url", "http://webfoundation.org/2014/06/a-message-of-congratulations/")
+        .add_property("headline", "A message of congratulations…")
+        .add_property("articleSection", "General")
+        .add_property("datePublished", "Mon, 23 Jun 2014 10:59:34 +0000")
+        .add_property("author","Dillon Mann")
 
       turtle = Turtle.new(prefixes)
         .add_resource(resource)

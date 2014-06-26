@@ -13,25 +13,7 @@ class Turtle
   end
 
   def to_string
-    graph = RDF::Graph.new
-
-    @resources.each do |resource|
-        resourceUri = RDF::URI.new(resource.uri)
-        graph << [resourceUri, RDF.type, RDF::SCHEMA.Article]
-        graph << [resourceUri, RDF::SCHEMA.headline, resource.properties["schema:headline"]]
-        if (resource.properties["schema:url"] != nil)
-            graph << [resourceUri, RDF::SCHEMA.url, RDF::URI.new(resource.properties["schema:url"])]
-        end
-        if (resource.properties["schema:articleSection"] != nil)
-          graph << [resourceUri, RDF::SCHEMA.articleSection, resource.properties["schema:articleSection"]]
-        end
-        if (resource.properties["schema:datePublished"] != nil)
-          graph << [resourceUri, RDF::SCHEMA.datePublished, resource.properties["schema:datePublished"]]
-        end
-        if (resource.properties["schema:author"] != nil)
-          graph << [resourceUri, RDF::SCHEMA.author, resource.properties["schema:author"]]
-        end
-    end
+    graph = create_graph_from_resource
 
     RDF::Turtle::Writer.buffer(prefixes: @prefixes) do |writer|
         graph.each_statement do |statement|
@@ -40,4 +22,27 @@ class Turtle
     end
   end
 
+  def create_graph_from_resource
+    graph = RDF::Graph.new
+
+    @resources.each do |resource|
+        resourceUri = RDF::URI.new(resource.uri)
+        graph << [resourceUri, RDF.type, RDF::SCHEMA.Article]
+
+        resource.properties.each do |key, object |
+          add_triple_to_graph(graph, resourceUri, key, object)
+        end
+    end
+    graph
+  end
+
+  def add_triple_to_graph(graph, resourceUri, key, object)
+    predicate = RDF::SCHEMA.send(key)
+    if (key == "url") then
+      graph << [resourceUri, predicate, RDF::URI.new(object) ]
+    else
+      graph << [resourceUri, predicate, object ]
+    end
+
+  end
 end
