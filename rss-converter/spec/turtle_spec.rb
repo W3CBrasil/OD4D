@@ -37,6 +37,7 @@ describe Turtle do
         .add_property("schema:headline", "A message of congratulations…")
         .add_property("schema:articleSection", "General")
         .add_property("schema:datePublished", "Mon, 23 Jun 2014 10:59:34 +0000")
+        .add_property("schema:author","Dillon Mann")
 
       turtle = Turtle.new(prefixes)
         .add_resource(resource)
@@ -50,6 +51,7 @@ describe Turtle do
 
 <http://the/link/#thelink> a schema:Article;
    schema:articleSection \"General\";
+   schema:author \"Dillon Mann\";
    schema:datePublished \"Mon, 23 Jun 2014 10:59:34 +0000\";
    schema:headline \"A message of congratulations…\";
    schema:url <http://webfoundation.org/2014/06/a-message-of-congratulations/> .\n"
@@ -57,4 +59,5 @@ describe Turtle do
         expect(turtle_as_string).to eq(expected)
       end
     end
+
   end

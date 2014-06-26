@@ -13,7 +13,7 @@ class Turtle
   end
 
   def to_string
-    graph = RDF::Graph.new 
+    graph = RDF::Graph.new
 
     @resources.each do |resource|
         resourceUri = RDF::URI.new(resource.uri)
@@ -27,6 +27,9 @@ class Turtle
         end
         if (resource.properties["schema:datePublished"] != nil)
           graph << [resourceUri, RDF::SCHEMA.datePublished, resource.properties["schema:datePublished"]]
+        end
+        if (resource.properties["schema:author"] != nil)
+          graph << [resourceUri, RDF::SCHEMA.author, resource.properties["schema:author"]]
         end
     end
 
