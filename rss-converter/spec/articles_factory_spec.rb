@@ -55,8 +55,8 @@ describe ArticlesFactory do
         expect(article.title).to eq("Legal Justification For Snooping: Statement")
       end
 
-      it 'should set the article link' do
-        expect(article.link).to eq("http://link.com")
+      it 'should set the article url' do
+        expect(article.url).to eq("http://link.com")
       end
 
     end
