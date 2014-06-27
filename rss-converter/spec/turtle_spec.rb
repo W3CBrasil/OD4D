@@ -33,7 +33,7 @@ describe Turtle do
     context "given a resource of schema:Article with more than one property" do
 
       resource = Resource.new("http://the/link/#thelink", "Article")
-        .add_property("headline", "A message of congratulations…")
+        .add_property("headline", "A message of congratulations...")
         .add_property("articleSection", "General")
         .add_property("datePublished", "Mon, 23 Jun 2014 10:59:34 +0000")
         .add_property("author","Dillon Mann")
@@ -52,7 +52,7 @@ describe Turtle do
    schema:articleSection \"General\";
    schema:author \"Dillon Mann\";
    schema:datePublished \"Mon, 23 Jun 2014 10:59:34 +0000\";
-   schema:headline \"A message of congratulations…\" .\n"
+   schema:headline \"A message of congratulations...\" .\n"
 
         expect(turtle_as_string).to eq(expected)
       end
