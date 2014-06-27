@@ -37,7 +37,6 @@ Session.vim
 ### Rails ###
 *.rbc
 capybara-*.html
-.rspec
 /log
 /db/*.sqlite3
 /public/system

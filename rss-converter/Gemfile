@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'rspec'
 gem 'rdf'
 gem 'rdf-turtle'
+
+group :development, :test do
+  gem 'rspec'
+  gem 'fuubar', '~>2.0.0.rc1'
+end
