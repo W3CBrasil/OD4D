@@ -5,7 +5,7 @@
 
 body {
 	font-size: 18px;
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #333333;
 	background-color: #eeeeee;
 	margin: 0px;
@@ -54,7 +54,7 @@ header a:hover {
 
 h1 {
 	font-size: 38px;
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: lighter;
 	color: #333333;
 	margin: 0;
@@ -62,7 +62,7 @@ h1 {
 
 h2 {
 	font-size: 30px;
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #333333;
 	font-weight: lighter;
 	margin: 25px 0px 5px 0px;
@@ -71,7 +71,7 @@ h2 {
 p {
 	font-size: 18px;
 	font-weight: lighter;
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #333333;
 	margin: 0px 0px 0px 0px;
 	padding-top: 15px;
@@ -97,7 +97,7 @@ ul.header-menu li {
 
 footer {
 	font-size: 16px;
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #ffffff;
 	background-color: #da6235;
 	text-align: left;
