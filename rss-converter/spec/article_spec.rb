@@ -11,7 +11,6 @@ describe Article do
     article.author = "Yasodara Cordova"
     article.datePublished  = "10/07/2031"
     article.articleBody = "Un conteudo mucho louco"
-    article.encoding = "utf-8"
     article.articleSection = "sports"
 
     context "when it is converted to a resource" do
@@ -54,43 +53,9 @@ describe Article do
         expect(resource.properties["articleBody"]).to eq("Un conteudo mucho louco")
       end
 
-      it "the resource should have the property encoding" do
-        expect(resource.properties["encoding"]).to eq("utf-8")
-      end
-    
       it "the resource should have the property articleSection" do
         expect(resource.properties["articleSection"]).to eq("sports")
       end
-      
-      #RSS Main
-      #title -> Organization name?
-      #link -> Organization link?
-      #description -> Talvez em "Organization"? 
-      #language -> inLanguage
-      #copyright -> copyrightHolder/copyrightYear
-      #managingEditor -> editor
-      #webMaster -> none
-      #rating -> aggregateRating
-      #pubDate -> none
-      #lastBuildDate
-      #image -> image
-      #ttl -> maximum time that item should be kept, should refresh afterwards
-      #
-      #
-      #RSS ITEM
-      #--------
-      #title -> headline
-      #link -> url
-      #description -> description
-      #comments -> comment?
-      #author -> author (Person/Organization)
-      #putDate -> datePublished
-      #isPermaLink
-      #content -> articleBody
-      #content_encoded -> encoding
-      #category -> articleSection
-      #domain -> dominio do RSS?
-
 
     end
 

@@ -8,7 +8,6 @@ open(url) do |rss|
     feed.items.each do |item|
         puts "Item: #{item.title}"
     end
-
-    puts feed.inspect 
     puts feed.items[0].inspect
 end
+
