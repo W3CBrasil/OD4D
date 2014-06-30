@@ -13,23 +13,23 @@ class Turtle
     self
   end
 
-  def to_string
-    graph = create_graph_from_resource
-
-    RDF::Turtle::Writer.buffer(prefixes: @prefixes) do |writer|
+  def to_s
+    graph = create_graph_from_resources
+    output = RDF::Turtle::Writer.buffer(prefixes: @prefixes) do |writer|
         graph.each_statement do |statement|
             writer << statement
         end
     end
+    output
   end
 
-  def create_graph_from_resource
+  private
+  def create_graph_from_resources
     graph = RDF::Graph.new
 
     @resources.each do |resource|
         resourceUri = RDF::URI.new(resource.uri)
         graph << [resourceUri, RDF.type, RDF::SCHEMA.Article]
-
         resource.properties.each do |key, object |
           add_triple_to_graph(graph, resourceUri, key, object)
         end
@@ -39,11 +39,18 @@ class Turtle
 
   def add_triple_to_graph(graph, resourceUri, key, object)
     predicate = RDF::SCHEMA.send(key)
-    if object =~ /\A#{URI::regexp}\z/ then
+    raise "Empty resource" if resourceUri.nil?
+    raise "Empty key, for object #{object}" if key.nil? || key.empty?
+    raise "Empty object, for key #{key}" if object.nil? || object.empty?
+
+    if str_is_uri?(object) then
       graph << [resourceUri, predicate, RDF::URI.new(object) ]
     else
       graph << [resourceUri, predicate, object ]
     end
+  end
 
+  def str_is_uri?(str)
+    str =~ /\A#{URI::regexp}\z/   
   end
 end

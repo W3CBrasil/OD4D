@@ -10,8 +10,10 @@ class Resource
 
   def add_property(name, value)
     raise "name can't be nil or empty" if name.nil? || name.empty?
-    @properties[name] = value
-    define_singleton_method(name){ @properties[name]}
+    unless value.nil? 
+        @properties[name] = value
+        define_singleton_method(name){ @properties[name]}
+    end
     self
   end
 

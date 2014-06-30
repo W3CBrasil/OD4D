@@ -17,7 +17,7 @@ describe Turtle do
       .add_resource(resource)
 
     it "should convert to turtle format" do
-      turtle_as_string = turtle.to_string
+      turtle_as_string = turtle.to_s
 
       expected =
 "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -42,7 +42,7 @@ describe Turtle do
         .add_resource(resource)
 
       it "should convert to turtle format" do
-        turtle_as_string = turtle.to_string
+        turtle_as_string = turtle.to_s
 
         expected =
   "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -67,7 +67,7 @@ describe Turtle do
             .add_resource(resource)
 
         it "should generate the url triples in the format '<url>'instead of '\"url\"'" do
-            turtle_as_string = turtle.to_string
+            turtle_as_string = turtle.to_s
             expected = "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix schema: <http://schema.org/> .\n\n<http://the/link/#theLink> a schema:Article;\n   schema:image <http://webfoundation.org/2014/06/a-message-of-congratulations/#someImage>;\n   schema:url <http://webfoundation.org/2014/06/a-message-of-congratulations/> .\n"
             expect(turtle_as_string).to eq(expected)
         end
