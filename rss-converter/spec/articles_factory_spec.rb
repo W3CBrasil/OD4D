@@ -11,9 +11,11 @@ describe ArticlesFactory do
             <link>http://bla</link>
             <description>The description</description>
             <item>
+              <link>http://bla2</link>
               <title>Legal Justification For Snooping: Statement</title>
             </item>
             <item>
+              <link>http://bla3</link>
               <title>Marco Civil: A World First Digital Bill of Rights</title>
             </item>
           </channel>
