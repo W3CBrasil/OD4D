@@ -5,14 +5,19 @@ class Article
   attr_reader :url
   attr_accessor :title, :description, :comment, :author, :datePublished, :articleBody, :articleSection, :language
 
-
-  def initialize(url)
+  def initialize(url, options={})
+    raise "url can't be nil" if url.nil?
     @url = url
+    @title = options[:title]
+    @description = options[:description]
+    @language = options[:language]
+    @author = options[:author]
+    @datePublished  = options[:datePublished ]
+    @articleBody = options[:articleBody]
+    @articleSection = options[:articleSection]
   end
-
-  def uri
-    @url
-  end
+  
+  alias_method :uri, :url
 
   def to_resource
     Resource.new(uri, "Article")
