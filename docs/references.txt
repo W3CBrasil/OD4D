@@ -1,0 +1,127 @@
+HTML5/CSS3
+http://css-tricks.com/
+
+Livro de lineked data (comprar e faturar para a TW)
+http://www.manning.com/dwood/
+
+
+
+Definições
+https://en.wikipedia.org/wiki/Linked_data
+http://www.od4d.org/pt/
+
+
+
+Exemplos de vocabulário
+http://www.w3.org/TR/vocab-dcat/
+http://schema.org/docs/gs.html
+http://wiki.openstreetmap.org/wiki/OSM_Semantic_Ne
+http://schema.org/Person
+http://dbpedia.org/ontology/Film
+
+
+Busca e comparação de vocabulários similares
+http://sameas.org/
+
+
+
+
+
+
+Documentos antigos de especificação do projeto
+https://docs.google.com/document/d/1D356T8NRqu3YZoDIJb7UIQt7kVBjy763b3VJpjgIF2s/edit
+https://docs.google.com/document/d/1hzbvuvXgtf6PDCwS_xEDktJG0UuogccLOE1EgWIvQNk/edit
+
+
+
+Escopo previsto pela Yaso
+http://pad.w3c.br/p/od4d_1stM
+
+
+
+Busca semântica (hat tip, Bruno Wagner)
+http://www.w3.org/wiki/TaskForces/CommunityProjects/LinkingOpenData/SemanticWebSearchEngines
+http://rdelbru.github.io/SIREn/
+
+
+
+Verificadores semânticos (hat tip, Bruno Wagner, Guilherme Tramontina)
+http://www.sindice.com/
+Web Accessibility Checker - http://achecker.ca/checker/index.php
+http://www.w3.org/WAI/eval/Overview.html
+
+
+
+Infos OK Festival
+http://2014.okfestival.org/tickets/
+
+
+??
+http://datahub.io/
+http://www.lesliesikos.com/category/semantic-web/
+http://jena.apache.org/
+
+
+Especificações:
+RDFA: http://www.w3.org/TR/xhtml-rdfa-primer/
+http://rdfa.info/
+
+
+Owl Web Ontology Language: http://www.w3.org/standards/techs/owl#w3c_all
+
+
+Tech Overview
+http://www.lesliesikos.com/tutorials/rdf/
+http://www.w3.org/TR/owl2-overview/
+
+
+Mais informações:
+http://sw.deri.org/2008/07/n-quads/
+http://wiki.dbpedia.org/Datasets
+http://www.w3.org/standards/semanticweb/
+http://semanticweb.com/
+https://support.google.com/webmasters/answer/1408986?hl=pt
+
+Exemplos de consultas semânticas:
+http://wiki.dbpedia.org/OnlineAccess#h28-2
+
+
+The semantic web: and overview
+https://www.youtube.com/watch?v=rhgUDGtT2EM
+
+Algo um pouco mais prático, o manual para o desenvolvedor:
+http://www.w3c.br/pub/Materiais/PublicacoesW3C/manual_dados_abertos_desenvolvedores_web.pdf
+
+
+
+
+Tools/Frameworks:
+http://jena.apache.org/
+https://bitbucket.org/fundacionctic/rdfadev/wiki/Home
+
+
+Criação ferramenta pela w3c, envolvendo web semântica
+http://www.w3.org/2013/04/semweb-html5/spider/
+
+
+Opan graph protocol do facebook:
+http://ogp.me/
+http://rdfa.info/
+http://www.google.com.br/webmasters/tools/richsnippets
+
+
+Possíveis Fontes de Linked Data.
+http://datos.fundacionctic.org/sandbox/catalog/faceted/
+
+
+Validadores
+Validação HTML5 + RDFa 
+http://validator.nu/
+
+TEMP - Best found so far:
+https://bitbucket.org/fundacionctic/rdfadev/wiki/Home
+http://rdfa.info/
+http://rdfa.info/play/
+http://www.google.com.br/webmasters/tools/richsnippets
+https://code.google.com/p/green-turtle/
+http://linkeddata.org/home
