@@ -45,3 +45,4 @@ These messages are loaded within the Rails app as follows:
       </ul>
 ```
 
+In order to add a new translation, one just needs to create the proper YML file (pt-br.yml, es.yml, etc), copy the contents from the ***en.yml*** file and translate all the **values**. Remember that the **keys must not be altered**. Also, all the files must have the same key/values pair.
