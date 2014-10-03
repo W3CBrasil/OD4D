@@ -36,7 +36,7 @@ This file is a [YML](http://en.wikipedia.org/wiki/YAML) file containing keys (th
 
 These messages are loaded within the Rails app as follows:
 
-```ruby
+```erb
       <h3>OD4D</h3>
       <ul>
         <li><%= link_to t('menu_1'), {controller: "pages", action: "about"} %></li>
