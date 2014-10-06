@@ -15,9 +15,39 @@ These are the article sections to be used on the posts. They may have both a Nam
 
 These are the Articles themselves. They need to have a section in order to be listed beneath it on the website and may also have several comma separated values on the **about** field.
 
+#### Adding Sections
+
+The sections included in CMS will result in dynamic pages, which show the content of posts platform. It is necessary that the sections are inserted prior to the classification of posts. To do this:
+
+1. Click in the menu "Seções"
+1. To the right of your screen, click in "Adicionar Seção"
+1. Add a name and description for your section
+1. Click "Adicionar" button.
+
+If you want to edit any section, access them from "Sections" menu's list.
+
+#### Writing posts
+
+To create a post as a contributor to the site:
+
+1. Click in "Adicionar Novo Post", in the right side of your screen; 
+1. Fill the form of Título (Title), Autor (Author), Seção (Section), Assunto (Subject) e Conteúdo (Content);
+1. Click in "Salvar" button.
+
+#### Flagging posts already published
+
+Migrated posts from the old site need to be flagged so that they can assign more value to your content. To do this:
+
+1. Access the "Posts" menu
+1. Click on the item you want to edit
+1. In the combobox "Seção", select the desired option
+1. Click in "Salvar" button.
+
+It is important to remember that posts will only be able to be flagged beforehand if there are sections to which they may be associated.
+
 #### Internationalization (i18n)
 
-Beforehand we should state that there are two areas affected by internationalization
+First of all, we should state that there are two areas affected by internationalization
 
 - Published content
 - Static texts/messages
