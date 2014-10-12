@@ -41,7 +41,7 @@ The article sections' URL are in the form of *** http://platform.od4d.org/articl
 
 As stated before, the articles may be originated from:
 
-- Imported from RSS via the RSS-to-Turtle application
+- Imported from RSS via the [RSS-to-Turtle](https://github.com/W3CBrasil/od4d-rss-to-turtle) application
 - Created using the CMS tool
 
 NOTE: When posts are imported using the RSS-to-CMS application (as importing all the previous posts from the OD4D.org website) they **will not** be available on the website, even though they will show up on the CMS. They need to be manually saved/modified in order to that.
