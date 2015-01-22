@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>OD4D Platform</title>
+</head>
+<body>
+
 # OD4D Network
 
 The Open Data for Development, known by the acronym "OD4D project" is composed by a Network of organizations that started in 2011 as a research about “Open Data for Public Policy in Latin America”. Part of the project was executed W3C Brazil office - and funded by IDRC. Untill 2013, the project was restricted to research, aiming qualitative and qualitative outputs related to Latam.(Read more) 
