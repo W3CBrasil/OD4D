@@ -40,8 +40,6 @@ b, strong {
 img {
   color: transparent;
   font-size: 0;
-  vertical-align: middle;
-  -ms-interpolation-mode: bicubic;
 }
 
 li, ul, ol {
