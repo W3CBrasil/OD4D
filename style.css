@@ -1,0 +1,207 @@
+ abbr, acronym, address, applet,
+article, aside, audio, b, big, blockquote,
+body, canvas, caption, center,
+cite, code, dd, del, details,
+dfn, dialog, div, dl, dt, em, embed,
+fieldset, figcaption, figure, font, footer, 
+form, h1, h2, h3, h4, h5, h6, header, 
+hgroup, hr, html, i, iframe, img, ins, kbd,
+label, legend, main, mark, menu,
+meter, nav, object, ol, output, p,
+pre, progress, q, rp, rt, ruby, s, samp, section, 
+small, span, strike, strong,
+sub, summary, sup, table, tbody, td, tfoot, th,
+thead, time, tr, tt, u, ul, var,
+video, xmp {
+  border: 0;
+  margin: 0;
+  padding: 15px;
+  font-size: 100%;
+  line-height: 1.5em;
+	
+}
+
+html,
+body {
+  height: 100%;
+}
+
+article, aside, details,
+figcaption, figure, footer,
+header, hgroup, main, menu,
+nav, section {
+  display: block;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+img {
+  color: transparent;
+  font-size: 0;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic;
+}
+
+li, ul, ol {
+  list-style-type: circle;
+}
+
+li {
+  display: list-item;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 10px;
+}
+.padding-0{
+  padding: 0 !important;
+}
+.margin-0{
+  margin: 0 !important;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.left {
+  text-align: left;
+}
+th,
+td,
+caption {
+  font-weight: normal;
+  vertical-align: top;
+  text-align: left;
+}
+
+q {
+  quotes: none;
+}
+
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+sub,
+sup,
+small {
+  font-size: 75%;
+}
+
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+svg {
+  overflow: hidden;
+}
+
+pre,
+code {
+  font-family: "DejaVu Sans Mono", Monaco, Consolas, monospace;
+}
+
+hr {
+  border: none;
+  border-top: 3px solid #ccc;
+  clear: both;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+h4 {
+  font-size: 19px;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+
+p, dl, hr, h1,
+h2, h3, h4,
+h5, h6, ol, ul,
+pre, table, address, 
+fieldset, figure {
+  margin-bottom: 1;
+}
+
+body {
+  background: white;
+  color: #999;
+  font-family: 'Exo 2', Helvetica, Verdana, Arial, sans-serif;
+  text-align: left;
+}
+a{
+  font-family: 'Exo 2', Helvetica, Verdana, Arial, sans-serif;
+  color: #FC7C54;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+h1 {
+  padding-top: 1.54em;
+}
+
+img {
+  max-width: 100%;
+}
+h1 {
+  color: #4AB7A7;
+  font-size: 2.4em;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.strongfont{
+  font-weight: 700;
+}
+.bggreen{background-color: #229AA7;}
+
+header.maintop{
+  background-color: #229AA7;
+  border-bottom: 3px solid #036A6D;
+  z-index: 99;
+  height: 61px;
+  padding: 0 7%;
+  transition: all .5s linear;
+}
+@media screen and (max-width: 1337px) {
+    header.maintop {
+      padding: 0 .5em !important;
+    }
+}
+
+
+
