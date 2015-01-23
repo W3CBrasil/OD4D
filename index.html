@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width" />
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>OD4D Platform</title>
 </head>
 <body>
@@ -17,11 +18,10 @@
 Besides being a space for knowledge exchange, the platform also aims at being itself an example of implementation of semantic web and linked data technologies.The platform can acts as a prove of concept to  investors, governments, institutions and individuals that have intention to work together in creating a collaborative network around the theme of publishing data for development in Latin America, Africa, Asia and the Caribbean.</p>
 <p>See the image below to understand:</p>
 <img src="docs/od4dArch.png" alt="od4d architecture" width="500">
-<p>The system consists of three main modules: the publisher, the parser and the storer.
-As you can see in the picture, tThe publisher module enables the input of new content into the platform. The parser processes partners' RSS channel and extracts semantic triples about this content. Finally, the storer stores RDF triples using the Turtle syntax with the help of Jena suite.</p>
-<p>Finally, the platform will provide an endpoint so that users can access this information from the collected triple repository. This whole platform is available on Github for anyone who wants to build a website or semantic platform on some other domain.</p>
-<p>The platform was built with semantic web and linked data technologies. The web application runs the Ruby on Rails framework. The RDF triples use Turtle syntax and their interface with an HTTP server were implemented using the Jena and Fuseki technologies by Apache Software Foundation.</p>
-<p>We expect the experience provided on the platform enable greater integration of experts and enthusiasts of open data and semantic web technology community, facilitating an intensive exchange of information and the advancement of knowledge on open data.</p>
+<p>The system consists of 4 modules: the publisher, which is the CMS [3], storage for static content generated thru the CMS [4], the parser [1] and the semantic store [2].
+
+<p>As you can see in the picture, the publisher module enables the input of new content into the website and keeps it in a PostgreSQL data store. The parser processes partners' RSS channel and extracts semantic triples about this content. Finally, the storer stores RDF triples using the Turtle syntax with the help of Jena suite and provide an endpoint so that users can access this information from the collected triple repository. </p>
+
 
 <h1>Project repositories structure</h1>
 <h3>The OD4D project is composed of 5 repositories.</h3>
