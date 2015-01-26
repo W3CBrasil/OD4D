@@ -1,8 +1,10 @@
 # OD4D Network
 
-The Open Data for Development, known by the acronym "OD4D project" is composed by a Network of organizations that started in 2011 as a research about “Open Data for Public Policy in Latin America”. Part of the project was executed W3C Brazil office - and funded by IDRC. Untill 2013, the project was restricted to research, aiming qualitative and qualitative outputs related to Latam.(Read more) 
+The Open Data for Development, known by the acronym "OD4D project" is composed by a Network of organizations that started in 2011 as a research about “Open Data for Public Policy in Latin America”. The project was executed by W3C Brazil office and the Economic Commission for Latin America and the Caribbean (ECLAC), funded by IDRC. Until 2013, the project was restricted to research, aiming qualitative and qualitative outputs related to Latam. 
 
-In 2013, the Network was increased by the presence of World Bank and some other participants, which caused the need for more connectivity between participants and faster spreading of actions, results and call to action that are inherent to the project. Thereto, a new website was conceived, based on Linked and open data concepts.
+Go and check the project page at github. https://w3cbrasil.github.io/OD4D/
+
+On 2014, the Network was increased by the presence of World Bank and some other participants, which caused the need for more connectivity between participants and faster spreading of actions, results and call to action that are inherent to the project. Thereto, a new website was conceived, based on Linked and open data concepts.
 
 Comprehending that Semantic Web is the right approach to talk and research about Open and Linked Data, the decision of build on top of the content of the OD4D website a suite of softwares to connect and use the potencial of semantic data was taken by the team of W3C Brazil office, and counts on the funding of Brazilian Network Information Center (NIC.br) on behalf of the Brazilian Internet Steering Committee (CGI.br).
 
